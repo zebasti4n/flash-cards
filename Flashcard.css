@@ -1,0 +1,294 @@
+body{
+
+position: relative;
+width: 1440px;
+height: 2178px;
+background: #EDE7D9;
+  
+}
+
+header{
+
+position: absolute;
+width: 1440px;
+height: 230px;
+left: 0px;
+top: 0px;
+border-color: #000000;
+border-style: ridge;
+background: #FAD4C0;
+
+}
+.volver{
+
+position: absolute;
+width: 70px;
+height: 70px;
+left: 40px;
+top: 40px;
+
+}
+
+h1{   
+  position: absolute;
+  width: 527px;
+  height: 132px;
+  left: 457px;
+  top: 0px;     
+  font-family:Inknut Antiqua;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 132px;    
+  color: #0D0C0C;
+}
+
+
+.carta{
+position: absolute;
+width: 240px;
+height: 370px;
+left: 25px;
+top: 400px;
+
+}
+
+.carta section{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  transition: 2s;
+  padding: 10px;
+}
+
+.carta .frente{
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 41px;
+  top: 0px;
+  border-style:ridge;
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 75px;
+  
+  color: #FFFFFF;
+  
+  background: #64B6AC;
+  border-radius: 40px;
+  transform: perspective(500px) rotateY(0deg);
+  text-align: center;
+  border-color: black;
+
+}
+
+
+
+.carta .atras{
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 41px;
+  top: 0px;
+  background: #B5E2FA;
+  border-radius: 40px;
+  transform: perspective(500px) rotateY(180deg);
+  text-align: center;
+  display: block;
+
+}
+
+.carta:hover .frente{
+  transform: perspective(500px) rotateY(180deg);
+}
+
+.carta:hover .atras{
+  transform: perspective(500px) rotateY(360deg);
+}
+
+
+.atras img{  
+width: 120px;
+height: 120px;
+left: 5px;
+top: 15px;
+object-fit: cover;
+position: relative;}
+
+.text{
+position: absolute;
+width: 230px;
+height: 200px;
+left: 20px;
+top: 139px;
+color: #000000;
+font-family:Tahoma;
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+text-align: center;
+}
+
+.carta2{
+position: absolute;
+width: 238px;
+height: 376px;
+left: 280px;
+top: 0px;}
+
+.carta3{
+
+position: absolute;
+width: 235px;
+height: 376px;
+left: 570px;
+top: 0px;
+
+}
+.carta4{
+
+position: absolute;
+width: 235px;
+height: 376px;
+left: 854px;
+top: 0px;}
+
+.carta5{
+
+position: absolute;
+width: 235px;
+height: 376px;
+left: 1140px;
+top: 0px;}
+
+.carta6{
+position: absolute;
+width: 235px;
+height: 376px;
+left: 0px;
+top: 470px;
+
+}
+
+.carta7{
+
+position: absolute;
+width: 238px;
+height: 376px;
+left: 280px;
+top: 470px;}
+
+.carta8{
+
+position: absolute;
+width: 235px;
+height: 376px;
+left: 570px;
+top: 470px;
+
+}
+.carta9{
+
+position: absolute;
+width: 235px;
+height: 376px;
+left: 854px;
+top: 470px;}
+
+.carta10{
+
+position: absolute;
+width: 235px;
+height: 376px;
+left: 1140px;
+top: 470px;}
+
+
+.carta11{
+position: absolute;
+width: 235px;
+height: 376px;
+left: 0px;
+top: 940px;
+
+}
+
+.carta12{
+
+position: absolute;
+width: 238px;
+height: 376px;
+left: 280px;
+top: 940px;}
+
+.carta13{
+
+position: absolute;
+width: 235px;
+height: 376px;
+left: 570px;
+top: 940px;;
+
+}
+.carta14{
+
+position: absolute;
+width: 235px;
+height: 376px;
+left: 854px;
+top: 940px;}
+
+.carta15{
+
+position: absolute;
+width: 235px;
+height: 376px;
+left: 1140px;
+top: 940px;}
+
+
+.carta16{
+  position: absolute;
+width: 235px;
+height: 376px;
+left: 0px;
+top: 1420px;
+
+}
+
+.carta17{
+
+  position: absolute;
+width: 238px;
+height: 376px;
+left: 280px;
+top: 1420px;}
+
+.carta18{
+
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 570px;
+    top: 1420px;
+
+}
+  .carta19{
+
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 854px;
+    top: 1420px;}
+
+  .carta20{
+
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 1140px;
+    top: 1420px;}
